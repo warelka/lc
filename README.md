@@ -7,8 +7,12 @@
 - Задеплоить токен (контракт ProjectToken)
 - Задеплоить RatingSystem 
 - Задеплоить EventMaster
-- Вызвать функции SetEventMaster в ProjectToken (указать адрес EM)
-- Вызвать функции SetEventMaster в RatingSystem (указать адрес EM)
+
+Вызвать функции в ProjectToken
+- SetEventMaster  (указать адрес EM)
+
+Вызвать функции в RatingSystem
+- SetEventMaster  (указать адрес EM)
 
 Вызвать функции в EventMaster:
 - SetRS в EventMaster (указать адерес контректа RatingSystem)
