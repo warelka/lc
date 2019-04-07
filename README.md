@@ -4,16 +4,15 @@ v_4_02.sol - включено ограничение по времени.
 
 Инструкция первоначальных действий (обязательно к выполнению):
 
-    1. Задеплоить токен (контракт ProjectToken)
-    2. Задеплоить RatingSystem 
-    3. Задеплоить EventMaster
-    4. Вызвать функции SetEventMaster в ProjectToken (указать адрес EM)
-    5. Вызвать функции SetEventMaster в RatingSystem (указать адрес EM)
+- Задеплоить токен (контракт ProjectToken)
+- Задеплоить RatingSystem 
+- Задеплоить EventMaster
+- Вызвать функции SetEventMaster в ProjectToken (указать адрес EM)
+- Вызвать функции SetEventMaster в RatingSystem (указать адрес EM)
 
-
-Вызвать функции в ЕМ :
-Вызвать функцию SetRS в EventMaster (указать RS)
-- SetToken (указать токен),
+Вызвать функции в EventMaster:
+- SetRS в EventMaster (указать адерес контректа RatingSystem)
+- SetToken (указать адерес контректа ProjectToken)
 - SetComission (указать комиссию (по умолчанию 0, можно так и оставить)), 
 - SetWallet (указать кошелек для сбора средств)
 
