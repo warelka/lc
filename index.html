@@ -1,0 +1,10 @@
+<script src="web3.js"></script>
+<script type="text/javascript">
+try {
+web3 = new Web3(new Web3.providers.HttpProvider("https://core.poa.network"));
+alert (web3.eth.accounts[0]);
+}
+catch (error) {
+alert(error);
+}
+</script>
